@@ -9,3 +9,11 @@ user.name = "John";
 user.surname = "Smith";
 user.name = "Pete";
 delete user.name;
+
+function isEmpty(object){
+  if(object.){
+    return true;
+  }else{
+    return false;
+  }
+}
