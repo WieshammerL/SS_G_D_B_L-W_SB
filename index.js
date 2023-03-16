@@ -55,3 +55,18 @@ function getSum(object){
 
 console.log(getSum(salaries));
 */
+
+
+
+let temp = {
+  a: 100,
+  b: 160,
+  c: "Hallo"
+};
+
+function multiplyNumeric(object){
+  for(let key in object){
+      if(temp[key].typeof == )
+  }
+  return sum;
+}
