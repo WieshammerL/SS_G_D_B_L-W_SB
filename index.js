@@ -11,9 +11,12 @@ user.name = "Pete";
 delete user.name;
 
 function isEmpty(object){
-  if(object.){
+  for(let temp in object){
     return true;
-  }else{
-    return false;
   }
+  return false;
 }
+let a = {};
+//a.b = "hallo";
+console.log(isEmpty(a));
+
