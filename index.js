@@ -106,3 +106,10 @@ class Rabbit extends Animal{
 let rabbit = new Rabbit("Rabbit");
 console.log(rabbit);
 */
+
+
+class Node{
+  constructor(value, nextNode){
+    
+  }
+}
