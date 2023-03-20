@@ -58,7 +58,7 @@ console.log(getSum(salaries));
 
 
 /*
-//Aufgabe 4
+//Aufgabe 5
 let temp = {
   a: 100,
   b: 160,
@@ -77,3 +77,32 @@ multiplyNumeric(temp);
 console.log(temp);
 */
 
+
+/*
+//Aufgabe 6
+let user = {
+  name: "John",
+  go: function() { console.log(this.name) }
+}
+
+user.go();
+*/
+
+/*
+//Aufgabe 6
+class Animal{
+  constructor(name){
+    this.name = name;
+  }
+}
+
+class Rabbit extends Animal{
+  constructor(name){
+    super(name);
+    this.created = Date.now();
+  }
+}
+
+let rabbit = new Rabbit("Rabbit");
+console.log(rabbit);
+*/
