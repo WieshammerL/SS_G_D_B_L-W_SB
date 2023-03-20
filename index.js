@@ -57,7 +57,8 @@ console.log(getSum(salaries));
 */
 
 
-
+/*
+//Aufgabe 4
 let temp = {
   a: 100,
   b: 160,
@@ -66,7 +67,13 @@ let temp = {
 
 function multiplyNumeric(object){
   for(let key in object){
-      if(temp[key].typeof == )
+      if(typeof object[key] == 'number'){
+        object[key] *= 2;
+      }
   }
-  return sum;
 }
+
+multiplyNumeric(temp);
+console.log(temp);
+*/
+
